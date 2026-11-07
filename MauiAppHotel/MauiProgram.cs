@@ -13,6 +13,9 @@ namespace MauiAppHotel
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Roboto.ttf", "Roboto");
+                    fonts.AddFont("Roboto-Italic.ttf", "RobotoItalic");
+                    fonts.AddFont("RobotoSlab.ttf", "RobotoSlab");
                 });
 
 #if DEBUG
