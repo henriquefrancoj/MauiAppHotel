@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.ReservaConfirmada"
+             Title="Reserva confirmada"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="LightBlue">
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         Padding="20"
+                         Spacing="20">
+        <Label Text="Reserva confirmada!"
+               FontFamily="Roboto"
+               FontSize="35"
+               TextColor="MidnightBlue"
+               HorizontalTextAlignment="Center" />
+        <Label Text="Sua hospedagem foi confirmada com sucesso."
+               TextColor="MidnightBlue"
+               FontSize="18"
+               HorizontalTextAlignment="Center" />
+        <Button Text="Voltar para contratação"
+                HorizontalOptions="Center" BackgroundColor="CadetBlue"
+                Clicked="Button_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.SobreDev"
+             Title="SobreDev"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="LightBlue">
+    <VerticalStackLayout VerticalOptions="CenterAndExpand" Padding="10">
+        <Border Padding="10"
+                BackgroundColor="MidnightBlue">
+            <VerticalStackLayout>
+                <Label Text="Sobre o Desenvolvedor"
+                       FontFamily="RobotoSlab"
+                       FontSize="20"
+                       HorizontalTextAlignment="Center"/>
+                <Label Text="Nome: Henrique Franco&#10;E-mail: example@example.com"
+                       FontFamily="Roboto"
+                       FontSize="14"
+                       HorizontalTextAlignment="Center" />
+                <Label Text="GitHub: github.com/henriquefrancoj&#10;Ano: 2026"
+                       FontFamily="Roboto"
+                       FontSize="14"
+                       HorizontalTextAlignment="Center" />
+            </VerticalStackLayout>
+            
+        </Border>
+        
+        <Button Text="Voltar" HorizontalOptions="Center" Margin="10"
+                BackgroundColor="CadetBlue" Clicked="Button_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>
